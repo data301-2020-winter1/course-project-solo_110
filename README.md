@@ -5,9 +5,9 @@ The analysis of Bitcoin.
 
 ## Milestones
 
-Task 1: Project Setup
-Task 2: Choosing topic and dataset, and get approval
-Task 3: Introduce and describe dataset and topic
+{Task 1: Project Setup}
+{Task 2: Choosing topic and dataset, and get approval}
+{Task 3: Introduce and describe dataset and topic}
 
 ## Describe your topic/interest in about 150-200 words
 
