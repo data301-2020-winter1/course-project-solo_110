@@ -1,15 +1,17 @@
-[![Work in Repl.it](https://classroom.github.com/assets/work-in-replit-14baed9a392b3a25080506f3b7b6d57f295ec2978f6f33ec97e36a161684cbe9.svg)](https://classroom.github.com/online_ide?assignment_repo_id=312432&assignment_repo_type=GroupAssignmentRepo)
-# Group YYY - {Short snappy Title of your project}
+[![Work in Repl.it](https://classroom.github.com/assets/work-in-replit-14baed9a392b3a25080506f3b7b6d57f295ec2978f6f33ec97e36a161684cbe9.svg)](https://classroom.github.com/online_ide?assignment_repo_id=312265&assignment_repo_type=GroupAssignmentRepo)
+# Group 110 - {Bitcoin Analysis}
 
-- Your title can change over time.
+The analysis of Bitcoin.
 
 ## Milestones
 
-Details for Milestone are available on Canvas (left sidebar, Course Project) or [here](https://firas.moosvi.com/courses/data301/project/milestone01.html).
+Task 1: Project Setup
+Task 2: Choosing topic and dataset, and get approval
+Task 3: Introduce and describe dataset and topic
 
 ## Describe your topic/interest in about 150-200 words
 
-{Add your stuff here}
+{Crytocurrency had a huge uprising in the years 2016-2018, the aim of this project is to analyze the patterns in pricing and volume over time of Bitcoin. While there are other sources and forms of cryptocurrency, this dataset will focus on Bitcoin (the USD of cryptocurrency). Since cryptocurrency has launched, experts have been unsure about the actual value of Bitcoin as it holds no physical value and rather the monetary value is based off its consumers(investors) view of this commodity. This analysis will hopefully bring insight into the value of Bitcoin}
 
 ## Describe your dataset in about 150-200 words
 
