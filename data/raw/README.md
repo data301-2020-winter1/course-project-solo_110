@@ -1,1 +1,1 @@
-This directory contains the adult.test, adult.name, and adult.data raw data files.
+This directory contains the datasets and raw files.
