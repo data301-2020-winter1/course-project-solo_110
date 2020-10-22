@@ -23,10 +23,8 @@ It inclues the date, opening price, high, low, closing price as well as total vo
 
 ## Team Members
 
-- Person 1: one sentence about you!
-- Person 2: one sentence about you!
-- Person 3: one sentence about you!
-
+- Jace: I use to be heavily invested into cryptocurrency, which is why i chose this topic!
+ 
 ## References
 
 {Add your stuff here}
