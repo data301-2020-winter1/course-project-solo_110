@@ -11,7 +11,7 @@ The analysis of Bitcoin.
 
 ## Describe your topic/interest in about 150-200 words
 
-Crytocurrency had a huge uprising in the years 2016-2018, the aim of this project is to analyze the patterns in pricing and volume over time of Bitcoin. While there are other sources and forms of cryptocurrency, this dataset will focus on Bitcoin (the USD of cryptocurrency). Since cryptocurrency has launched, experts have been unsure about the actual value of Bitcoin as it holds no physical value and rather the monetary value is based off its consumers(investors) view of this commodity. This analysis will hopefully bring insight into the value of Bitcoin}
+Crytocurrency had a huge uprising in the years 2016-2018, the aim of this project is to analyze the patterns in pricing and volume over time of Bitcoin. While there are other sources and forms of cryptocurrency, this dataset will focus on Bitcoin (the USD of cryptocurrency). Since cryptocurrency has launched, experts have been unsure about the actual value of Bitcoin as it holds no physical value and rather the monetary value is based off its consumers(investors) view of this commodity. This analysis will hopefully bring insight into the value of Bitcoin.
 
 ## Describe your dataset in about 150-200 words
 
