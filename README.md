@@ -15,7 +15,11 @@ Crytocurrency had a huge uprising in the years 2016-2018, the aim of this projec
 
 ## Describe your dataset in about 150-200 words
 
-{Add your stuff here}
+This dataset is taken from https://coinmarketcap.com/ and it is free to use the data.
+The bitcoin dataset is obtained from Blockchain info.
+The ethereum dataset (which we are not using) is obtained from Etherscan.
+The dataset includes prices available on a daily basis from April 28, 2013 up until February 20, 2018.
+It inclues the date, opening price, high, low, closing price as well as total volume during that day.
 
 ## Team Members
 
