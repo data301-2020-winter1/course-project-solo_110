@@ -38,3 +38,22 @@ def openCloseBarPlot(dataset):
     plt.ylabel("Cost")
     plt.show()
     print("Average opening cost-Average closing cost: $%.2f"%(avgClose-avgOpen))
+    
+    
+def getYearlyDf(dataset):
+    yearlydf = dataset[::-1]
+    yearlydf = (
+        yearlydf.groupby(np.arange(len(yearlydf))//365)
+        .mean()
+        .round(2)
+    )
+    return yearlydf
+
+def getMonthlyDf(dataset):
+    monthlydf = dataset[::-1]
+    monthlydf = (
+        monthlydf.groupby(np.arange(len(monthlydf))//30)
+        .mean()
+        .round(2)
+    )
+    return monthlydf
