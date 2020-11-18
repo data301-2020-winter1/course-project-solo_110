@@ -41,19 +41,28 @@ def openCloseBarPlot(dataset):
     
     
 def getYearlyDf(dataset):
-    yearlydf = dataset[::-1]
-    yearlydf = (
-        yearlydf.groupby(np.arange(len(yearlydf))//365)
+    temp = dataset[::-1]
+    temp = (
+        temp.groupby(np.arange(len(temp))//365)
         .mean()
         .round(2)
     )
-    return yearlydf
+    return temp
 
 def getMonthlyDf(dataset):
-    monthlydf = dataset[::-1]
-    monthlydf = (
-        monthlydf.groupby(np.arange(len(monthlydf))//30)
+    temp = dataset[::-1]
+    temp = (
+        temp.groupby(np.arange(len(temp))//30)
         .mean()
         .round(2)
     )
-    return monthlydf
+    return temp
+
+def getBiAnnualDf(dataset):
+    temp = dataset[::-1]
+    temp = (
+        temp.groupby(np.arange(len(temp))//120)
+        .mean()
+        .round(2)
+    )
+    return temp
