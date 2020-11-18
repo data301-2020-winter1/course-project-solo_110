@@ -27,3 +27,14 @@ def listColumns(dataset):
     lst = dataset.columns
     for item in lst:
         print(item)
+
+def openCloseBarPlot(dataset):
+    avgClose = dataset['Close'].mean()
+    avgOpen = dataset['Open'].mean()
+
+    plt.bar("Open",avgOpen,label="Open")
+    plt.bar("High",avgClose,label="High")
+    plt.legend()
+    plt.ylabel("Cost")
+    plt.show()
+    print("Average opening cost-Average closing cost: $%.2f"%(avgClose-avgOpen))
