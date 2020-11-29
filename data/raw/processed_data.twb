@@ -1,0 +1,372 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20203.20.1110.1623                               -->
+<workbook original-version='18.1' source-build='2020.3.3 (20203.20.1110.1623)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <_.fcp.MarkAnimation.true...MarkAnimation />
+    <_.fcp.ObjectModelEncapsulateLegacy.true...ObjectModelEncapsulateLegacy />
+    <_.fcp.ObjectModelTableType.true...ObjectModelTableType />
+    <_.fcp.SchemaViewerObjectModel.true...SchemaViewerObjectModel />
+    <SheetIdentifierTracking />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <datasources>
+    <datasource caption='bitcoin_price_dataset' inline='true' name='federated.0gi6h3106r7o3p16r1sit174aqf3' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='bitcoin_price_dataset' name='textscan.186ouxz0i388er14xmydb140k6r3'>
+            <connection class='textscan' directory='S:/Work/UBC/COSC/COSC 301/Labs/course-project-solo_110/data/raw' filename='bitcoin_price_dataset.csv' password='' server='' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='textscan.186ouxz0i388er14xmydb140k6r3' name='bitcoin_price_dataset.csv' table='[bitcoin_price_dataset#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_CA' separator=','>
+            <column datatype='string' name='Date' ordinal='0' />
+            <column datatype='real' name='Open' ordinal='1' />
+            <column datatype='real' name='High' ordinal='2' />
+            <column datatype='real' name='Low' ordinal='3' />
+            <column datatype='real' name='Close' ordinal='4' />
+            <column datatype='integer' name='Volume' ordinal='5' />
+            <column datatype='integer' name='Market Cap' ordinal='6' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='textscan.186ouxz0i388er14xmydb140k6r3' name='bitcoin_price_dataset.csv' table='[bitcoin_price_dataset#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_CA' separator=','>
+            <column datatype='string' name='Date' ordinal='0' />
+            <column datatype='real' name='Open' ordinal='1' />
+            <column datatype='real' name='High' ordinal='2' />
+            <column datatype='real' name='Low' ordinal='3' />
+            <column datatype='real' name='Close' ordinal='4' />
+            <column datatype='integer' name='Volume' ordinal='5' />
+            <column datatype='integer' name='Market Cap' ordinal='6' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[bitcoin_price_dataset.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_GB&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_CA&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Date</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Date]</local-name>
+            <parent-name>[bitcoin_price_dataset.csv]</parent-name>
+            <remote-alias>Date</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[bitcoin_price_dataset.csv_3D5E1AA33C6F4EE18BDB5E0ADC879FB5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Open</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Open]</local-name>
+            <parent-name>[bitcoin_price_dataset.csv]</parent-name>
+            <remote-alias>Open</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[bitcoin_price_dataset.csv_3D5E1AA33C6F4EE18BDB5E0ADC879FB5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>High</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[High]</local-name>
+            <parent-name>[bitcoin_price_dataset.csv]</parent-name>
+            <remote-alias>High</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[bitcoin_price_dataset.csv_3D5E1AA33C6F4EE18BDB5E0ADC879FB5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Low</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Low]</local-name>
+            <parent-name>[bitcoin_price_dataset.csv]</parent-name>
+            <remote-alias>Low</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[bitcoin_price_dataset.csv_3D5E1AA33C6F4EE18BDB5E0ADC879FB5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Close</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Close]</local-name>
+            <parent-name>[bitcoin_price_dataset.csv]</parent-name>
+            <remote-alias>Close</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[bitcoin_price_dataset.csv_3D5E1AA33C6F4EE18BDB5E0ADC879FB5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Volume</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Volume]</local-name>
+            <parent-name>[bitcoin_price_dataset.csv]</parent-name>
+            <remote-alias>Volume</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[bitcoin_price_dataset.csv_3D5E1AA33C6F4EE18BDB5E0ADC879FB5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Market Cap</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Market Cap]</local-name>
+            <parent-name>[bitcoin_price_dataset.csv]</parent-name>
+            <remote-alias>Market Cap</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[bitcoin_price_dataset.csv_3D5E1AA33C6F4EE18BDB5E0ADC879FB5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <_.fcp.ObjectModelTableType.true...column caption='bitcoin_price_dataset.csv' datatype='table' name='[__tableau_internal_object_id__].[bitcoin_price_dataset.csv_3D5E1AA33C6F4EE18BDB5E0ADC879FB5]' role='measure' type='quantitative' />
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;Canada&quot;' />
+      </semantic-values>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='bitcoin_price_dataset.csv' id='bitcoin_price_dataset.csv_3D5E1AA33C6F4EE18BDB5E0ADC879FB5'>
+            <properties context=''>
+              <relation connection='textscan.186ouxz0i388er14xmydb140k6r3' name='bitcoin_price_dataset.csv' table='[bitcoin_price_dataset#csv]' type='table'>
+                <columns character-set='UTF-8' header='yes' locale='en_CA' separator=','>
+                  <column datatype='string' name='Date' ordinal='0' />
+                  <column datatype='real' name='Open' ordinal='1' />
+                  <column datatype='real' name='High' ordinal='2' />
+                  <column datatype='real' name='Low' ordinal='3' />
+                  <column datatype='real' name='Close' ordinal='4' />
+                  <column datatype='integer' name='Volume' ordinal='5' />
+                  <column datatype='integer' name='Market Cap' ordinal='6' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='Sheet 1'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>Daily High vs Low &#10;</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='bitcoin_price_dataset' name='federated.0gi6h3106r7o3p16r1sit174aqf3' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0gi6h3106r7o3p16r1sit174aqf3'>
+            <column datatype='real' name='[High]' role='measure' type='quantitative' />
+            <column datatype='real' name='[Low]' role='measure' type='quantitative' />
+            <column-instance column='[High]' derivation='None' name='[none:High:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Low]' derivation='None' name='[none:Low:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+          </pane>
+        </panes>
+        <rows>[federated.0gi6h3106r7o3p16r1sit174aqf3].[none:High:qk]</rows>
+        <cols>[federated.0gi6h3106r7o3p16r1sit174aqf3].[none:Low:qk]</cols>
+      </table>
+      <simple-id uuid='{2430E81D-5117-4E01-BE98-B80A493FA0A6}' />
+    </worksheet>
+    <worksheet name='Sheet 2'>
+      <table>
+        <view>
+          <datasources />
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{6FA23DB0-D7C1-4CB7-ADA7-AE64CA09D65A}' />
+    </worksheet>
+  </worksheets>
+  <windows source-height='30'>
+    <window class='worksheet' maximized='true' name='Sheet 1'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{40B46DC6-BBBA-49BA-AE83-9C0D6C811346}' />
+    </window>
+    <window class='worksheet' name='Sheet 2'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{83370CC4-89C2-4300-9A36-DC91CDC6E7BB}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='192' name='Sheet 1' width='192'>
+      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
+      rkJggg==
+    </thumbnail>
+    <thumbnail height='192' name='Sheet 2' width='192'>
+      iVBORw0KGgoAAAANSUhEUgAAAMAAAADACAYAAABS3GwHAAAACXBIWXMAAA7DAAAOwwHHb6hk
+      AAACFUlEQVR4nO3TMQEAIAzAMMC/5yFjRxMFfXpnZg5Eve0A2GQA0gxAmgFIMwBpBiDNAKQZ
+      gDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFI
+      MwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQD
+      kGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBp
+      BiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA
+      0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDN
+      AKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxA
+      mgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZ
+      gDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFI
+      MwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKR9Y+0F
+      fBUOM1sAAAAASUVORK5CYII=
+    </thumbnail>
+  </thumbnails>
+</workbook>
