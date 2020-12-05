@@ -10,13 +10,13 @@ The analysis of bitcoin throught the years 2013 to 2018.
  - ~Task 2: Choosing topic and dataset, and get approval~
  - ~Task 3: Introduce and describe dataset and topic~
  
-#### Milestone 2:
- - Task 1: Introduction to Markdown
- - Task 2: Introduction to Git merges, branches, and more
- - Task 3: Method Chaining and Python Programs
- - Task 4: Conduct an Exploratory Data Analysis (EDA) on your dataset
- - Task 5: Conduct your analysis to help answer your research question(s)
- 
+#### ~Milestone 2:~ *(Completed)*
+ - ~Task 1: Introduction to Markdown~
+ - ~Task 2: Introduction to Git merges, branches, and more~
+ - ~Task 3: Method Chaining and Python Programs~
+ - ~Task 4: Conduct an Exploratory Data Analysis (EDA) on your dataset~
+ - ~Task 5: Conduct your analysis to help answer your research question(s)~
+#### ~Milestone 3: ~ *(Completed)* 
 ---
 ## Topic of interest
 ---
